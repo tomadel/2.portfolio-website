@@ -8,4 +8,4 @@ with st.form(key="email_forms"):
     button = st.form_submit_button("Submit")
     if button:
         message = message + user_email
-        st.markdown("yaaaay")
+        st.markdown("success")
